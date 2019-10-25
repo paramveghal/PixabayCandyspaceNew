@@ -22,14 +22,15 @@ enum Constants {
 struct Images: Codable {
     let totalHits: Int
     let hits: [ImageInfo]
+    let total: Int
 }
 
 // Image properties
 struct ImageInfo: Codable {
-    let largeImageURL: URL?
+    let largeImageURL: URL
     let likes: Int?
+    let tags: String?
     let comments: Int?
-    let userImageURL: URL?
     let previewURL: URL?
 }
 

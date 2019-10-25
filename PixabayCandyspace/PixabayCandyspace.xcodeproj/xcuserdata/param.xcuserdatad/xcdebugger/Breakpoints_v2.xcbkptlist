@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PixabayCandyspace/GalleryViewController.swift"
-            timestampString = "593695916.772583"
+            filePath = "PixabayCandyspace/Networking/ImageApi.swift"
+            timestampString = "593739071.703472"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
-            landmarkName = "fetchImageForCell(cell:image:)"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "search(searchTerm:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PixabayCandyspace/GalleryViewController.swift"
-            timestampString = "593695916.772936"
+            filePath = "PixabayCandyspace/Networking/ImageApi.swift"
+            timestampString = "593739071.70358"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "fetchImageForCell(cell:image:)"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "search(searchTerm:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -41,13 +41,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PixabayCandyspace/GalleryViewController.swift"
-            timestampString = "593695916.773165"
+            filePath = "PixabayCandyspace/Networking/ImageApi.swift"
+            timestampString = "593739071.703637"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
-            landmarkName = "fetchImageForCell(cell:image:)"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "search(searchTerm:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -57,13 +57,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PixabayCandyspace/GalleryViewController.swift"
-            timestampString = "593695916.773389"
+            filePath = "PixabayCandyspace/Networking/ImageApi.swift"
+            timestampString = "593739071.703687"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "tableView(_:cellForRowAt:)"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "search(searchTerm:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -73,92 +73,44 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PixabayCandyspace/GalleryViewController.swift"
-            timestampString = "593695916.773608"
+            filePath = "PixabayCandyspace/Networking/ImageApi.swift"
+            timestampString = "593739071.703734"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PixabayCandyspace/GalleryViewController.swift"
-            timestampString = "593695916.773831"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PixabayCandyspace/GalleryViewController.swift"
-            timestampString = "593695916.774071"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "tableView(_:numberOfRowsInSection:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PixabayCandyspace/GalleryViewController.swift"
-            timestampString = "593695916.77442"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "searchForImages(text:)"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "search(searchTerm:completion:)"
             landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "PixabayCandyspace.GalleryViewController.searchForImages(text: Swift.String) -&gt; ()"
+                  symbolName = "static PixabayCandyspace.ImageApi.search(searchTerm: Swift.String, completion: (Swift.Optional&lt;PixabayCandyspace.ImageError&gt;, Swift.Optional&lt;Swift.Array&lt;PixabayCandyspace.ImageInfo&gt;&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "PixabayCandyspace"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/param/Documents/GitHub/PixabayCandyspace/PixabayCandyspace/PixabayCandyspace/GalleryViewController.swift"
-                  timestampString = "593650029.301536"
+                  urlString = "file:///Users/param/Documents/GitHub/PixabayCandyspace/PixabayCandyspace/PixabayCandyspace/Networking/ImageApi.swift"
+                  timestampString = "593737996.243842"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "169">
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "456">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;PixabayCandyspace.ImageError&gt;, Swift.Optional&lt;Swift.Array&lt;PixabayCandyspace.ImageInfo&gt;&gt;) -&gt; () in PixabayCandyspace.GalleryViewController.searchForImages(text: Swift.String) -&gt; ()"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static PixabayCandyspace.ImageApi.search(searchTerm: Swift.String, completion: (Swift.Optional&lt;PixabayCandyspace.ImageError&gt;, Swift.Optional&lt;Swift.Array&lt;PixabayCandyspace.ImageInfo&gt;&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "PixabayCandyspace"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/param/Documents/GitHub/PixabayCandyspace/PixabayCandyspace/PixabayCandyspace/GalleryViewController.swift"
-                  timestampString = "593650029.303648"
+                  urlString = "file:///Users/param/Documents/GitHub/PixabayCandyspace/PixabayCandyspace/PixabayCandyspace/Networking/ImageApi.swift"
+                  timestampString = "593737996.245555"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
-                  offsetFromSymbolStart = "93">
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "92">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -169,13 +121,396 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PixabayCandyspace/GalleryViewController.swift"
-            timestampString = "593695916.774677"
+            filePath = "PixabayCandyspace/Networking/ImageApi.swift"
+            timestampString = "593739071.703781"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "searchForImages(text:)"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "search(searchTerm:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static PixabayCandyspace.ImageApi.search(searchTerm: Swift.String, completion: (Swift.Optional&lt;PixabayCandyspace.ImageError&gt;, Swift.Optional&lt;Swift.Array&lt;PixabayCandyspace.ImageInfo&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PixabayCandyspace"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/param/Documents/GitHub/PixabayCandyspace/PixabayCandyspace/PixabayCandyspace/Networking/ImageApi.swift"
+                  timestampString = "593737996.250214"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "456">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static PixabayCandyspace.ImageApi.search(searchTerm: Swift.String, completion: (Swift.Optional&lt;PixabayCandyspace.ImageError&gt;, Swift.Optional&lt;Swift.Array&lt;PixabayCandyspace.ImageInfo&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PixabayCandyspace"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/param/Documents/GitHub/PixabayCandyspace/PixabayCandyspace/PixabayCandyspace/Networking/ImageApi.swift"
+                  timestampString = "593737996.251675"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PixabayCandyspace/Networking/ImageApi.swift"
+            timestampString = "593739071.703828"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "search(searchTerm:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PixabayCandyspace/Networking/ImageApi.swift"
+            timestampString = "593739071.703874"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "search(searchTerm:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static PixabayCandyspace.ImageApi.search(searchTerm: Swift.String, completion: (Swift.Optional&lt;PixabayCandyspace.ImageError&gt;, Swift.Optional&lt;Swift.Array&lt;PixabayCandyspace.ImageInfo&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PixabayCandyspace"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/param/Documents/GitHub/PixabayCandyspace/PixabayCandyspace/PixabayCandyspace/Networking/ImageApi.swift"
+                  timestampString = "593737996.258777"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "325">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static PixabayCandyspace.ImageApi.search(searchTerm: Swift.String, completion: (Swift.Optional&lt;PixabayCandyspace.ImageError&gt;, Swift.Optional&lt;Swift.Array&lt;PixabayCandyspace.ImageInfo&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PixabayCandyspace"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/param/Documents/GitHub/PixabayCandyspace/PixabayCandyspace/PixabayCandyspace/Networking/ImageApi.swift"
+                  timestampString = "593737996.260215"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "380">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PixabayCandyspace/Networking/ImageApi.swift"
+            timestampString = "593739071.7039191"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "search(searchTerm:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PixabayCandyspace/Networking/ImageApi.swift"
+            timestampString = "593739071.703966"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "search(searchTerm:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PixabayCandyspace/Networking/ImageApi.swift"
+            timestampString = "593739071.704012"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "search(searchTerm:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static PixabayCandyspace.ImageApi.search(searchTerm: Swift.String, completion: (Swift.Optional&lt;PixabayCandyspace.ImageError&gt;, Swift.Optional&lt;Swift.Array&lt;PixabayCandyspace.ImageInfo&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PixabayCandyspace"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/param/Documents/GitHub/PixabayCandyspace/PixabayCandyspace/PixabayCandyspace/Networking/ImageApi.swift"
+                  timestampString = "593737996.270099"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "884">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static PixabayCandyspace.ImageApi.search(searchTerm: Swift.String, completion: (Swift.Optional&lt;PixabayCandyspace.ImageError&gt;, Swift.Optional&lt;Swift.Array&lt;PixabayCandyspace.ImageInfo&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PixabayCandyspace"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/param/Documents/GitHub/PixabayCandyspace/PixabayCandyspace/PixabayCandyspace/Networking/ImageApi.swift"
+                  timestampString = "593737996.2714961"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static PixabayCandyspace.ImageApi.search(searchTerm: Swift.String, completion: (Swift.Optional&lt;PixabayCandyspace.ImageError&gt;, Swift.Optional&lt;Swift.Array&lt;PixabayCandyspace.ImageInfo&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PixabayCandyspace"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/param/Documents/GitHub/PixabayCandyspace/PixabayCandyspace/PixabayCandyspace/Networking/ImageApi.swift"
+                  timestampString = "593737996.272815"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1171">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PixabayCandyspace/Networking/ImageApi.swift"
+            timestampString = "593739071.704056"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "search(searchTerm:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PixabayCandyspace/Networking/ImageApi.swift"
+            timestampString = "593739071.704101"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "search(searchTerm:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static PixabayCandyspace.ImageApi.search(searchTerm: Swift.String, completion: (Swift.Optional&lt;PixabayCandyspace.ImageError&gt;, Swift.Optional&lt;Swift.Array&lt;PixabayCandyspace.ImageInfo&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PixabayCandyspace"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/param/Documents/GitHub/PixabayCandyspace/PixabayCandyspace/PixabayCandyspace/Networking/ImageApi.swift"
+                  timestampString = "593737996.280787"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "929">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static PixabayCandyspace.ImageApi.search(searchTerm: Swift.String, completion: (Swift.Optional&lt;PixabayCandyspace.ImageError&gt;, Swift.Optional&lt;Swift.Array&lt;PixabayCandyspace.ImageInfo&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PixabayCandyspace"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/param/Documents/GitHub/PixabayCandyspace/PixabayCandyspace/PixabayCandyspace/Networking/ImageApi.swift"
+                  timestampString = "593737996.2822109"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "969">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PixabayCandyspace/Networking/ImageApi.swift"
+            timestampString = "593739071.704145"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "search(searchTerm:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static PixabayCandyspace.ImageApi.search(searchTerm: Swift.String, completion: (Swift.Optional&lt;PixabayCandyspace.ImageError&gt;, Swift.Optional&lt;Swift.Array&lt;PixabayCandyspace.ImageInfo&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PixabayCandyspace"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/param/Documents/GitHub/PixabayCandyspace/PixabayCandyspace/PixabayCandyspace/Networking/ImageApi.swift"
+                  timestampString = "593737996.286541"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "929">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static PixabayCandyspace.ImageApi.search(searchTerm: Swift.String, completion: (Swift.Optional&lt;PixabayCandyspace.ImageError&gt;, Swift.Optional&lt;Swift.Array&lt;PixabayCandyspace.ImageInfo&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PixabayCandyspace"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/param/Documents/GitHub/PixabayCandyspace/PixabayCandyspace/PixabayCandyspace/Networking/ImageApi.swift"
+                  timestampString = "593737996.28826"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "969">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PixabayCandyspace/Networking/ImageApi.swift"
+            timestampString = "593739071.704191"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "search(searchTerm:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static PixabayCandyspace.ImageApi.search(searchTerm: Swift.String, completion: (Swift.Optional&lt;PixabayCandyspace.ImageError&gt;, Swift.Optional&lt;Swift.Array&lt;PixabayCandyspace.ImageInfo&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PixabayCandyspace"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/param/Documents/GitHub/PixabayCandyspace/PixabayCandyspace/PixabayCandyspace/Networking/ImageApi.swift"
+                  timestampString = "593737996.2939579"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "861">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static PixabayCandyspace.ImageApi.search(searchTerm: Swift.String, completion: (Swift.Optional&lt;PixabayCandyspace.ImageError&gt;, Swift.Optional&lt;Swift.Array&lt;PixabayCandyspace.ImageInfo&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PixabayCandyspace"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/param/Documents/GitHub/PixabayCandyspace/PixabayCandyspace/PixabayCandyspace/Networking/ImageApi.swift"
+                  timestampString = "593737996.29545"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "985">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PixabayCandyspace/Networking/ImageApi.swift"
+            timestampString = "593739071.7042381"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "search(searchTerm:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PixabayCandyspace/Networking/ImageApi.swift"
+            timestampString = "593739071.704282"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "search(searchTerm:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

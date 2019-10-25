@@ -15,7 +15,7 @@ final class ImageApi {
     /// - parameter searchTerm: Searches on the text that is passed in from the UISearchBar.
     /// - returns: Void.
     static func search(searchTerm: String, completion: @escaping(ImageError?, [ImageInfo]?) -> Void) {
-        let urlString = "https://pixabay.com/api/?key=13197033-03eec42c293d2323112b4cca6&q=\(searchTerm)&i%20mage_type=photo"
+        let urlString = "https://pixabay.com/api/?key=\(Constants.apiKey)&q=\(searchTerm)&image_type=photo"
         guard let url = URL(string: urlString) else {
             completion(ImageError.badURL("Bad URL format"), nil)
             return

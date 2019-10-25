@@ -10,29 +10,33 @@ import UIKit
 
 class SearchViewController: UIViewController {
 
+    // MARK: - Properties
+
+    var imageText = ""
+
     // MARK: - IBOutlets
 
-    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var imageView: UIImageView! {
+        didSet {
+            imageView.image = UIImage(named: "appleLogo")
+        }
+    }
     @IBOutlet weak var searchBar: UISearchBar!
+
+    @IBAction func onClick(_ sender: Any) {
+        imageText = searchBar.text!
+        performSegue(withIdentifier: "image", sender: self)
+    }
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as! GalleryViewController
+        vc.finalImageName = self.imageText
+    }
 
     // MARK: - ViewDidLoad
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        searchBar.delegate = self
     }
-}
 
-// MARK: - UISearchBarDelegate
-
-extension SearchViewController: UISearchBarDelegate {
-
-    // on hitting return: the text in the searchBar will be passed to `searchForImages`
-    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-        guard let searchText = searchBar.text else { return }
-       // galleryViewController.searchForImages(text: searchText)
-        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let newViewController = storyBoard.instantiateViewController(withIdentifier: "GalleryViewController") as! GalleryViewController
-        self.present(newViewController, animated: true, completion: nil)
-    }
 }

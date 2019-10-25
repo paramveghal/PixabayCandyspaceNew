@@ -11,6 +11,7 @@ import UIKit
 
 final class GalleryViewController: UIViewController {
 
+    var finalImageName = ""
     let searchViewController = SearchViewController()
 
     @IBOutlet weak var tableView: UITableView!
@@ -18,15 +19,17 @@ final class GalleryViewController: UIViewController {
     // reloads data when images get updated
     var images = [ImageInfo]() {
         didSet {
-            tableView.reloadData()
+            // dispatch back to the main thread
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+            }
         }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
-        // if nothing is searched images of cars are shown by default
-        searchForImages(text: "car")
+        searchForImages(text: finalImageName)
     }
 
     /// Completes the network request with the URL endpoint. Decodes the JSON returned in the completion handler and updates the `resultData.hits`.
@@ -34,12 +37,12 @@ final class GalleryViewController: UIViewController {
     /// - parameter text: Searches on the text that is passed in from the UISearchBar.
     /// - returns: Void.
     func searchForImages(text: String) {
-        guard let encodedKeyword = text.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) else { return }
-        ImageApi.search(searchTerm: encodedKeyword) { (error, images) in
+        ImageApi.search(searchTerm: text) { (error, images) in
             if let error = error {
-                preconditionFailure("test error \(error)")
-            } else
-                if let images = images {
+                DispatchQueue.main.async {
+                print("ERRORRRRR")
+                }
+            } else if let images = images {
                     self.images = images
             }
         }
@@ -54,18 +57,23 @@ final class GalleryViewController: UIViewController {
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
             let cell = tableView.dequeueReusableCell(withIdentifier: "ImageCell", for: indexPath)
                     let image = images[indexPath.row]
-                    cell.textLabel?.text = "image.comments"
-                    cell.detailTextLabel?.text = "image.comments"
+
+                    let likes: Int = image.likes ?? 0
+                    let likesToString = String(likes)
+                    let imageTags = image.tags ?? "No tags available 😢"
+                    cell.textLabel?.text = "\(likesToString) 👍🏻 likes"
+                    cell.detailTextLabel?.text = "#️⃣ \(imageTags)"
                     fetchImageForCell(cell: cell, image: image)
                     return cell
         }
 
     private func fetchImageForCell(cell: UITableViewCell, image: ImageInfo) {
-        DispatchQueue.global().async {
+                DispatchQueue.global().async {
             do {
-                let test = URL(string: "")
-                let imageData = try Data(contentsOf: image.largeImageURL ?? test!)
+                let imageData = try Data(contentsOf: image.largeImageURL)
+                DispatchQueue.main.async {
                     cell.imageView?.image = UIImage(data: imageData)
+                }
             } catch {
                 print("contents of url error: \(error)")
             }

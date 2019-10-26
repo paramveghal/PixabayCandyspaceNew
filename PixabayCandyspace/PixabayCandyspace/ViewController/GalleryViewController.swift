@@ -40,12 +40,21 @@ final class GalleryViewController: UIViewController {
         ImageApi.search(searchTerm: text) { (error, images) in
             if let error = error {
                 DispatchQueue.main.async {
-                print("ERRORRRRR")
+                self.showAlert(title: "Error 😞", message: "\(error.localizedDescription)")
                 }
             } else if let images = images {
                     self.images = images
             }
         }
+    }
+
+    // Alert view
+    private func showAlert(title: String, message: String) {
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+
+        let okActionView = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        alertController.addAction(okActionView)
+        present(alertController, animated: true, completion: nil)
     }
 }
     extension GalleryViewController: UITableViewDataSource {
